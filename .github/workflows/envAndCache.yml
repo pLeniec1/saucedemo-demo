@@ -10,10 +10,6 @@ on:
       update-snapshots:
         description: "Update snapshots?"
         type: boolean
-  push:
-    branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
 jobs:
   test:
     timeout-minutes: 60
